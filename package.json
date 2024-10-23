@@ -1,0 +1,29 @@
+{
+  "name": "pizza-shop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@astrajs/rest": "^0.3.4",
+    "@headlessui/react": "^2.1.10",
+    "@heroicons/react": "^2.1.5",
+    "cassandra-driver": "^4.7.2",
+    "kerberos": "^2.2.0",
+    "next": "14.2.15",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.3.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  }
+}
